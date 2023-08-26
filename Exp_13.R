@@ -1,0 +1,6 @@
+n<-floor(rnorm(1000,50,50))
+print("Normal Distribution Random Number List :")
+print(n)
+k<-table(n)
+print("Number of Occurences of each value:")
+print(k)
